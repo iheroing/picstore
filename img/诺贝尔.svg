@@ -1,0 +1,207 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64B5F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#BBDEFB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#42A5F5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#90CAF9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2196F3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#64B5F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#42A5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 阴影效果 -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15"/>
+    </filter>
+    
+    <!-- 箭头标记 -->
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto">
+      <polygon points="0 0, 12 6, 0 12" fill="#1976D2" />
+    </marker>
+  </defs>
+  
+  <!-- 标题 -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="#1565C0">
+    2025诺贝尔医学奖：免疫耐受机制研究的递进突破
+  </text>
+  
+  <!-- 阶段1：理论挑战 -->
+  <rect x="80" y="100" width="200" height="100" rx="12" fill="url(#grad1)" 
+        stroke="#1976D2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="180" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#0D47A1">
+    理论挑战
+  </text>
+  <text x="180" y="160" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    免疫系统如何区分
+  </text>
+  <text x="180" y="180" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    自我与非我
+  </text>
+  
+  <!-- 箭头1 -->
+  <line x1="290" y1="150" x2="350" y2="150" stroke="#1976D2" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- 阶段2：1995突破 -->
+  <rect x="360" y="100" width="220" height="100" rx="12" fill="url(#grad2)" 
+        stroke="#1976D2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="470" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#0D47A1">
+    1995 突破性发现
+  </text>
+  <text x="470" y="148" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    坂口志文：外周存在
+  </text>
+  <text x="470" y="168" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    调节性T细胞(Tregs)
+  </text>
+  <text x="470" y="188" font-family="Arial, sans-serif" font-size="11" 
+        text-anchor="middle" fill="#1976D2" font-style="italic">
+    挑战中枢耐受主流观点
+  </text>
+  
+  <!-- 箭头2 -->
+  <line x1="590" y1="150" x2="650" y2="150" stroke="#1976D2" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- 阶段3：2001突破 -->
+  <rect x="660" y="100" width="240" height="100" rx="12" fill="url(#grad3)" 
+        stroke="#1976D2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="780" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#0D47A1">
+    2001 基因突破
+  </text>
+  <text x="780" y="148" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    布伦科与拉姆斯德尔
+  </text>
+  <text x="780" y="168" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#1565C0">
+    发现Foxp3基因突变
+  </text>
+  <text x="780" y="188" font-family="Arial, sans-serif" font-size="11" 
+        text-anchor="middle" fill="#1976D2" font-style="italic">
+    关联IPEX自身免疫病
+  </text>
+  
+  <!-- 向下箭头 -->
+  <line x1="780" y1="210" x2="780" y2="280" stroke="#1976D2" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- 阶段4：2003整合 -->
+  <rect x="620" y="290" width="320" height="100" rx="12" fill="url(#grad4)" 
+        stroke="#1976D2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="780" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#0D47A1">
+    2003 机制整合
+  </text>
+  <text x="780" y="345" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#0D47A1">
+    坂口志文再次突破：证实Foxp3基因
+  </text>
+  <text x="780" y="365" font-family="Arial, sans-serif" font-size="13" 
+        text-anchor="middle" fill="#0D47A1">
+    正是调控Tregs发育的主开关
+  </text>
+  <text x="780" y="382" font-family="Arial, sans-serif" font-size="11" 
+        text-anchor="middle" fill="#1565C0" font-style="italic">
+    理论与基因发现完美融合
+  </text>
+  
+  <!-- 向下箭头到应用 -->
+  <line x1="780" y1="400" x2="780" y2="470" stroke="#1976D2" stroke-width="3" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- 阶段5：临床转化 -->
+  <rect x="560" y="480" width="440" height="120" rx="12" fill="url(#grad5)" 
+        stroke="#1976D2" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="780" y="510" font-family="Arial, sans-serif" font-size="18" font-weight="bold" 
+        text-anchor="middle" fill="#FFFFFF">
+    临床转化与应用前景
+  </text>
+  <text x="780" y="540" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="#E3F2FD">
+    开创外周耐受新领域
+  </text>
+  <text x="780" y="565" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="#E3F2FD">
+    推动癌症免疫治疗、自身免疫病治疗、器官移植
+  </text>
+  <text x="780" y="588" font-family="Arial, sans-serif" font-size="12" 
+        text-anchor="middle" fill="#BBDEFB" font-style="italic">
+    多项疗法已进入临床试验阶段
+  </text>
+  
+  <!-- 左侧辅助信息：三位获奖者 -->
+  <rect x="60" y="290" width="480" height="280" rx="10" fill="#F5F5F5" 
+        stroke="#90A4AE" stroke-width="1.5" opacity="0.95"/>
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#37474F">
+    三位获奖者的核心贡献
+  </text>
+  
+  <!-- 坂口志文 -->
+  <circle cx="110" cy="370" r="8" fill="#1976D2"/>
+  <text x="130" y="375" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0">
+    坂口志文 (Shimon Sakaguchi)
+  </text>
+  <text x="130" y="395" font-family="Arial, sans-serif" font-size="12" fill="#546E7A">
+    1995：首次提出外周调节性T细胞概念
+  </text>
+  <text x="130" y="413" font-family="Arial, sans-serif" font-size="12" fill="#546E7A">
+    2003：证实Foxp3是Tregs发育关键基因
+  </text>
+  
+  <!-- 布伦科 -->
+  <circle cx="110" cy="450" r="8" fill="#1976D2"/>
+  <text x="130" y="455" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0">
+    玛丽·布伦科 (Mary Brunkow)
+  </text>
+  <text x="130" y="475" font-family="Arial, sans-serif" font-size="12" fill="#546E7A">
+    2001：发现scurfy小鼠Foxp3基因突变
+  </text>
+  <text x="130" y="493" font-family="Arial, sans-serif" font-size="12" fill="#546E7A">
+    揭示人类FOXP3突变导致IPEX综合征
+  </text>
+  
+  <!-- 拉姆斯德尔 -->
+  <circle cx="110" cy="530" r="8" fill="#1976D2"/>
+  <text x="130" y="535" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1565C0">
+    弗雷德·拉姆斯德尔 (Fred Ramsdell)
+  </text>
+  <text x="130" y="555" font-family="Arial, sans-serif" font-size="12" fill="#546E7A">
+    2001：与布伦科共同锁定Foxp3基因
+  </text>
+  
+  <!-- 底部注释 -->
+  <text x="500" y="750" font-family="Arial, sans-serif" font-size="12" 
+        text-anchor="middle" fill="#78909C" font-style="italic">
+    从理论假说到基因发现，再到机制整合与临床应用——免疫耐受研究的完整突破路径
+  </text>
+  
+  <!-- 装饰性元素：时间轴 -->
+  <line x1="80" y1="680" x2="920" y2="680" stroke="#B0BEC5" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="180" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#78909C">1995前</text>
+  <text x="470" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#78909C">1995</text>
+  <text x="780" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#78909C">2001-2003</text>
+  <text x="920" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#78909C">至今</text>
+</svg>
